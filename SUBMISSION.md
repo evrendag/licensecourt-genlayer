@@ -7,3 +7,8 @@ A consensus-based release passport that verifies open-source license compatibili
 LICENSECOURT issues evidence-backed license passports for software releases. A developer submits a public repository, immutable commit, exact package version and intended distribution model. The GenLayer contract fetches the pinned LICENSE, manifest and registry metadata, then checks SPDX expressions, obligations and policy conflicts through independent validator analysis. Verdict and primary risk must match; confidence must remain in the same band and differ by at most 10 points. Deterministic guards reject moving branches, contradictory fields and unsupported results. COMPATIBLE releases receive an ACTIVE passport; CONDITIONAL results list required actions; INCOMPATIBLE releases are blocked; missing or conflicting evidence fails closed. Passports are versioned and challengeable, preventing later releases from overwriting earlier evidence. Includes source, tests, architecture and a live consensus workflow. This is a technical evidence tool, not legal advice.
 ## Suggested tags
 Developer Tools · AI Verification · Governance
+
+## Deployed evidence
+- Contract: 0xc8e7d0c24fc0d47eBf5c2b3ed650583d4ad1B069
+- Explorer: https://explorer-studio-dev.genlayer.com/address/0xc8e7d0c24fc0d47eBf5c2b3ed650583d4ad1B069
+- Network: GenLayer Studio Next, chain ID 61997
